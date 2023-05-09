@@ -33,8 +33,11 @@
         transform: rotateY(360deg);
     }
 }
+#k:hover{
+    content: url(./icons/NavLogo_K_yellow.png);
+}
 .container{
-    width:1200px;
+    width:1450px;
     margin:0 auto;
 }
 
@@ -43,7 +46,7 @@
     display: flex;
     justify-content:space-between;
     align-items:center;
-
+    background-image: linear-gradient(to right,purple,violet,blue);
     padding-top:1rem;
 }
 
@@ -52,6 +55,8 @@
 }
 
 .logo-container{
+    margin-left: 10px;
+    margin-bottom: 10px;
     display:flex;
     justify-content: baseline;
     align-items: center;
@@ -478,12 +483,12 @@ a{
   }
 
   #project1{
-    background-image: url(/img/Project1.gif)
+    background-image: url(./img/Project1.gif)
   }
 
   #project2{
     margin-left:120px;
-    background-image: url(/img/Project2.png);
+    background-image: url(./img/Project2.png);
       background-repeat: no-repeat;
       background-size: cover;
     transform: scaleZ(5);
