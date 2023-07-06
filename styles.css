@@ -397,7 +397,6 @@ a{
   }
 
   .project-card:hover .project-number{
-    /* display:block; */
     opacity: 1;
   }
 
@@ -455,7 +454,6 @@ a{
     font-size:16px;
     font-style: italic;
   }
-
 
   .btn-grp{
     display:flex;
