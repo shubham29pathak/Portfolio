@@ -397,7 +397,6 @@ a{
   }
 
   .project-card:hover .project-number{
-    /* display:block; */
     opacity: 1;
   }
 
@@ -456,7 +455,6 @@ a{
     font-style: italic;
   }
 
-
   .btn-grp{
     display:flex;
     gap:0.9rem;
@@ -483,15 +481,24 @@ a{
   }
 
   #project1{
-    background-image: url(./img/Project1.gif)
+    background-image: url(./img/parallax.gif);
   }
 
   #project2{
-    margin-left:120px;
-    background-image: url(./img/Project2.png);
-      background-repeat: no-repeat;
-      background-size: cover;
+    background-image: url(./img/signup.png);
+      background-repeat:space;
+      background-size:contain;
     transform: scaleZ(5);
+  }
+#project3{
+    background-image: url(./img/shubplex.png);
+    background-repeat: space;
+    background-size:auto;
+  }
+#project4{
+    background-image: url(./img/online_food.png);
+    background-repeat:space;
+    background-size: cover;
   }
   @media (max-width:1300px) {
     .page-header {
@@ -763,4 +770,11 @@ footer{
 .gtt{
     color: white;
     font-weight: bolder;
+}
+.gsi{
+    position: relative;
+    top: 20px;
+    right: 10px;
+    height: 70px;
+    width: 70px;
 }
