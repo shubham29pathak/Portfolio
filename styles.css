@@ -37,7 +37,7 @@
     content: url(./icons/NavLogo_K_yellow.png);
 }
 .container{
-    width:1450px;
+    width:75rem;
     margin:0 auto;
 }
 
@@ -111,7 +111,6 @@ a{
     user-select:none;
     font-size: 7em;
     color:rgb(231,231,231);
-    
     bottom: -6%;
     left: -2%;
     font-weight: bold;
