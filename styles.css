@@ -37,7 +37,7 @@
     content: url(./icons/NavLogo_K_yellow.png);
 }
 .container{
-    width:1400px;
+    width:1200px;
     margin:0 auto;
 }
 
@@ -501,11 +501,17 @@ a{
     margin-left:120px;
   }
 #project5{
+    background-image: url(./img/github.png);
+    background-size:contain;
+    background-repeat:no-repeat;
     
 }
 #project6{
     margin-left:120px;
-    
+    background-image: url(./img/tic-tac-toe.png);
+}
+#project7{
+    background-image: url(./img/password.png);
 }
   @media (max-width:1100px) {
     .page-header {
@@ -770,6 +776,7 @@ footer{
     }
 }
 .icon-wrapper{
+  margin-right: 50px;
   display:flex;
   justify-content: flex-end;
   gap:1rem;
