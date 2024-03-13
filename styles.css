@@ -26,7 +26,7 @@
     0%{
         transform: rotateY(0deg);
     }
-    50{
+    50%{
         transform: rotateY(180deg);
     }
     100%{
@@ -494,11 +494,10 @@ a{
     background-repeat: space;
     background-size:auto;
   }
-#project4{
+#project7{
     background-image: url(./img/online_food.png);
     background-repeat:space;
     background-size: cover;
-    margin-left:120px;
   }
 #project5{
     background-image: url(./img/github.png);
@@ -510,7 +509,8 @@ a{
     margin-left:120px;
     background-image: url(./img/tic-tac-toe.png);
 }
-#project7{
+#project4{
+    margin-left:120px;
     background-image: url(./img/password.png);
 }
   @media (max-width:1100px) {
@@ -791,4 +791,8 @@ footer{
     right: 10px;
     height: 70px;
     width: 70px;
+}
+.minor,.major{
+  font-size: 300%;
+  margin-left: 3%;
 }
