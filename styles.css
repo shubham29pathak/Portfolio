@@ -16,6 +16,11 @@
     overflow-y:auto;
     overflow-x: hidden;
 }
+
+#s{
+  border-radius: 20%;
+}
+
 #k{
     animation-name: trans_k;
     animation-duration: 2s;
@@ -142,7 +147,8 @@ a{
 
 .hero-section-description{
     margin-top: 1rem;
-    width: 70%;
+    font-size: large;
+    width: 100%;
     font-weight: 500;
 }
 
@@ -479,39 +485,42 @@ a{
     transform:scale(1.1);
   }
 
-  #project1{
+  #project3{
     background-image: url(./img/parallax.gif);
   }
 
-  #project2{
+  #project4{
     background-image: url(./img/signup.png);
       background-repeat:space;
       background-size:contain;
       margin-left:120px;
   }
-#project3{
-    background-image: url(./img/shubplex.png);
-    background-repeat: space;
-    background-size:auto;
+#project5{
+    background-image: url(./img/weather.png);
+    background-size:cover;
   }
-#project7{
-    background-image: url(./img/online_food.png);
+
+#project6{
+  background-image: url(./img/online_food.png);
+  background-repeat:space;
+    background-size: cover;
+    margin-left:120px;
+}
+
+#project01{
+    background-image: url(./img/online_menu.png);
     background-repeat:space;
     background-size: cover;
   }
-#project5{
+#project1{
     background-image: url(./img/github.png);
-    background-size:contain;
+    background-size:auto;
     background-repeat:no-repeat;
     
 }
-#project6{
+#project2{
     margin-left:120px;
     background-image: url(./img/tic-tac-toe.png);
-}
-#project4{
-    margin-left:120px;
-    background-image: url(./img/password.png);
 }
   @media (max-width:1100px) {
     .page-header {
@@ -550,10 +559,10 @@ a{
     .project-sub-heading {
       width: 100%;
     }
-    #project2 {
+    #project4 {
       margin-left: 0;
     }
-    #project4 {
+    #project6 {
       margin-left: 0;
     }
     .project-skill-container {
@@ -591,7 +600,6 @@ a{
   position:relative;
   gap:2rem;
   justify-content: center;
-    
 }
 
 .skill-fade-text{
